@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 6%;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    float: left;
+    margin-right: 20px;
+}
+
+nav {
+    font: 1px;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+}
+a{
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-2{
+    position: relative;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    padding: 0;
+    width: 1000px;
+    margin-top: -20%;
+    
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    padding: 0;
+}
+.btn {
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.btn-inscription {
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    justify-content: space-between;
+    
+}
+.btn-offre {
+    display: inline-block;
+    background-color: #fff;
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+header{
+    background-color: white;
+}
+header.row{
+    margin-top: 70px;
+}
+
+.contenu1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.text1 h1 {
+    text-align: center;
+}
+
+
+.contenu1 img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contenu2 {
+    display: flex;
+}
+
+.text2 h1 {
+    text-align: center;
+}
+
+
+
+.contenu2 img {
+    flex-direction: row;
+    
+}
+.contenu3 {
+    display: flex;
+    
+}
+
+.text3 h1 {
+    text-align: center;
+}
+
+
+
+.contenu3 img {
+    flex-direction: row;
+    
+}
